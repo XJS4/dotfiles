@@ -7,8 +7,8 @@ My dotfiles for Neovim, zsh, fish, and others.
 ## Dependencies
 `nvim (with vim-plug), zsh, fish`
 
-#### Dependency Installation
-**Arch**
+### Dependency Installation
+#### **Arch**
 `sudo pacman -S nvim zsh fish`
 
 <hr>
