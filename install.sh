@@ -5,6 +5,7 @@ if (( $EUID == 0 )); then
     exit
 else
     echo "Have fun using my dotfiles"
+    sudo pacman -S --needed fish zsh nvim
     cp -r ./.zshrc $HOME/
-    cp -r ./fish/config.fish $HOME/.config/fish/
+    cp -r ./config.fish $HOME/.config/fish/
 fi

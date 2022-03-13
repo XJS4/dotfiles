@@ -44,7 +44,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'numToStr/FTerm.nvim'
 	" Multiple Cursor support
 	Plug 'terryma/vim-multiple-cursors'
-	" Vim Dashboard
-	Plug 'glepnir/dashboard-nvim'
+	" Neogit
+	Plug 'TimUntersberger/neogit'
 
 call plug#end()

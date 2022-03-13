@@ -4,6 +4,18 @@ source $HOME/.config/nvim/plug-config/coc.vim
 colorscheme nord
 set nu rnu
 
+
+" Neovide Configuration
+
+set guifont=Iosevka:h18
+let g:neovide_transparency=0.8
+let g:neovide_cursor_vfx_mode = "wireframe"
+let g:neovide_cursor_vfx_mode = "railgun"
+let g:neovide_fullscreen=v:true
+
+
+
+
 " Disable C-z from job-controlling neovim
 nnoremap <c-z> <nop>
 
@@ -74,6 +86,3 @@ if has('nvim')
 else
   inoremap <silent><expr> <c-@> coc#refresh()
 endif
-
-" Fterm Command
-
