@@ -10,3 +10,4 @@ set fish_greeting  "Welcome <|._.|>"
 
 alias cls="clear"
 alias dir="ls -la"
+alias :q="exit"
