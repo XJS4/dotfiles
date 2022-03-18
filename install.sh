@@ -10,6 +10,8 @@
 #  /     /    \     \
 # /     /      \     \
 # ------        ------
+# I will start using Emacs as my default editor, so my neovim config will eventually become reduntant
+
 
 
 if (( $EUID == 0 )); then
