@@ -25,6 +25,17 @@ else
     sudo pacman -S --needed fish zsh nvim
     cp -r ./.zshrc $HOME/
     cp -r ./config.fish $HOME/.config/fish/
+    read -p "Would you like to install my Neovim or my Emacs config?" VIOREM
+    # TODO encase all of this in a case statement
+    case "$VIOREM" in
+        [emacs])
+            ;;
+        [neovim])
+            ;;
+        *)
+            "Please select either neovim or emacs."
+            ;;
+    esac
     read -p "Do you have Vim-Plug installed? (y/n) " PLUGPREF
     case "$PLUGPREF" in
         [yY])
