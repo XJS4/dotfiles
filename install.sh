@@ -25,7 +25,7 @@ else
     sudo pacman -S --needed fish zsh nvim
     cp -r ./.zshrc $HOME/
     cp -r ./config.fish $HOME/.config/fish/
-    read -p "Would you like to install my Neovim or my Emacs config?" VIMOREM
+    read -p "Would you like to install my Neovim or my Emacs config? " VIMOREM
     case "$VIMOREM" in
         [emacs])
             sudo pacman -S emacs
@@ -44,6 +44,7 @@ else
                 *)
                     "Please choose either doom or default."
                     ;;
+                esac
             ;;
         [neovim])
             sudo pacman -S nvim
@@ -91,6 +92,7 @@ else
             echo "Please enter y or n"
             ;;
     esac
+    [ ! -d $HOME/Pictures ] && mkdir $HOME/Pictures
     [ ! -d $HOME/Pictures/Wallpapers/ ] && mkdir $HOME/Pictures/Wallpapers/
-    cp -r ./Nord Hills.png $HOME/Pictures/Wallpapers/
+    cp -r ./Nord\ Hills.png $HOME/Pictures/Wallpapers/
 fi
