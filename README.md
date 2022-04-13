@@ -1,6 +1,6 @@
 # A Git Repository for my dotfiles
 
-My dotfiles for Neovim, zsh, fish, and others.
+My dotfiles for i3-gaps, zsh, fish, and others.
 
 <hr>
 
@@ -13,7 +13,7 @@ Please ***do not*** run as root.
 
 ## Configured programs
 
-> Neovim
 > zsh
 > fish
-> Emacs (Which is just doom emacs)
+> i3-gaps
+> XMonad
