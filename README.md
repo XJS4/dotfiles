@@ -13,7 +13,7 @@ Please ***do not*** run as root.
 
 ## Configured programs
 
-> zsh
-> fish
-> i3-gaps
-> XMonad
+* zsh
+* fish
+* i3-gaps
+* XMonad
