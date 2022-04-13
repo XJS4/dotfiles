@@ -1,0 +1,1 @@
+/home/xjs4/.xmonad/xmonad.hs
